@@ -22,18 +22,3 @@ ENV PYTHONUNBUFFERED=1
 
 CMD ["python", "-u", "handler.py"]
 ```
-
----
-
-### **3. requirements.txt**
-```
-runpod
-diffusers==0.24.0
-transformers
-accelerate
-safetensors
-imageio
-imageio-ffmpeg
-sentencepiece
-protobuf
-huggingface_hub
